@@ -1,0 +1,4 @@
+.idea/
+.git/
+cgi-bin/
+config/api.config.php
