@@ -13,9 +13,9 @@ print_r($emarsys->get('event'));
 
 ####POST (get user fields)
 ```php
-  $list=array("user@mail.ru", "user2@gmail.com");
-  $params = array("keyId" => "3", "keyValues" => $list, "fields"=>array("1","2","3","31"));
-  $data_string = json_encode($params);
-  print_r($emarsys->post("contact/getdata", $data_string));
+$list=array("user@mail.ru", "user2@gmail.com");
+$params = array("keyId" => "3", "keyValues" => $list, "fields"=>array("1","2","3","31"));
+$data_string = json_encode($params);
+print_r($emarsys->post("contact/getdata", $data_string));
 ```
 
